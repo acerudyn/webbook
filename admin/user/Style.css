@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+#wrapper {
+
+border:1px ;
+border-radius:6px;
+margin:auto;	
+width:1014px;
+height:auto;
+
+}
+
+#header {
+	
+background-image:url(header.png);
+background-repeat:no-repeat;
+background-position:center;
+width:1014px;
+height:141px;
+
+}
+.search {
+	
+position:relative;
+float:right;
+top:27px;
+right:27px;	
+	
+}
+
+#slider{
+background-image:url(slider.jpg);
+background-repeat:no-repeat;
+background-position:center;		
+}
+
+#container {
+
+background:#DEDEDE;
+width:634px;
+height:1150px;	
+float:left;
+border-radius:7px;	
+	
+}
+
+#slider img {
+
+float:left;
+margin-left:2px;
+width:1010px;	
+height:300px;
+margin-bottom:3px;
+	
+}
+
+#nav {
+
+background-image:url(menu.png);
+width:995px;
+height:71px;
+background-repeat:no-repeat;
+margin:auto;
+	
+}
+
+#left-aside{
+
+float:left;	
+display:block;
+	
+}
+
+#tabel{
+		font-family:Arial;
+		font-size:13px;		
+}
+
+#baris{
+		background-color:#00F;
+		border-radius:7px 7px 0px 0px;
+		height:20px;	
+}
+
+
+#anggota{ 
+		background-color:#CCC;
+		border-radius:0px 0px 7px 7px;
+}
+
+#baris2{
+		background-color:#909;
+		border-radius: 7px 7px 0px 0px;
+}
+
+#login{
+	
+width:185px;
+height:130px;
+margin-top:3px;
+}
+
+.login-block {
+    width: 173px;
+	height: 113px;
+    padding: 7px;
+    background: #CCC;
+    border-radius: 5px;
+    border-top: 5px solid #666;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 11px;
+	font-family:Arial;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 22px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 11px;
+	font-family:Arial;
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block button {
+    width: 50%;
+    height: 20px;
+    background: #666;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family:Arial;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #99C;
+}
+
+#testimoni{
+
+background-image:url(testimonial.png);
+background-repeat:no-repeat;
+width:185px;
+height:287px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;
+	
+}
+
+#label {
+text-align:center;
+}
+
+#right-aside{
+	
+display:block;
+float:right;
+
+}
+
+#keranjang{
+
+background-image:url(keranjang.png);
+background-repeat:no-repeat;
+width:185px;
+height:120px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;
+	
+}
+
+#terlaris{
+
+background-image:url(terlaris.png);
+background-repeat:no-repeat;
+width:185px;
+height:263px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;
+	
+}
+
+#terbaru{
+
+background-image:url(baru.png);
+background-repeat:no-repeat;
+width:185px;
+height:263px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;	
+
+}
+
+#promo{
+	
+background-image:url(promo.png);
+background-repeat:no-repeat;
+width:185px;
+height:263px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;
+
+}
+
+#follow{
+
+background-image:url(follow.png);
+background-repeat:no-repeat;
+width:185px;
+height:221px;
+margin-bottom:3px;
+background-position:center;
+background-position:top;	
+
+}
+
+#page {
+font-family:Arial;
+color:#00F;
+font-size:14px;	
+font-weight:bolder;	
+}
+
+#footer{
+
+margin-left:9px;
+font-family:Arial;
+font-size:11px;
+text-align:center;
+	
+}
+
+/* CSS dropdown */
+
+.dropmenu {
+    background: #CCC;
+    height: 31px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+	border-radius:7px;
+}
+.dropmenu li {
+    float: left;
+    height: 30px;
+	margin-right:21px;
+	margin-left:21px;
+	
+}
+.dropmenu li a {
+    color: #000;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #778899; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: #3f4a54;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: #778899;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+	left:0px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
